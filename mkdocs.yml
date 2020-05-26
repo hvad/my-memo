@@ -1,0 +1,10 @@
+site_name: Mes mémos
+
+theme: readthedocs
+
+nav:
+    - 'Home': index.md
+    - 'Linux':
+        - 'Tmux': memo-tmux.md
+    - 'Virtualisation':
+        - 'Docker': memo-docker.md
