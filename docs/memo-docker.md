@@ -22,20 +22,22 @@ Par exemple :
 
     # docker pull fedora
 
-### Démarrer une image Docker
+### Démarrer une image
 
     # docker run <image_docker>
 
-Démarrer un conteneur docker :
-docker start nom_conteneur
+Ou si l'image a été arrêter :
+
+    # docker start <nom_conteneur> 
 
 ### Entrer dans le conteneur
 
-    # docker exec -t -i nom_conteneur /bin/bash
+    # docker exec -t -i <nom_conteneur> /bin/bash
 
-Ajouter un répertoire d'échange :
-docker run -i -v /tmp/:/tmp -t docker_image /bin/bash
+### Ajouter un répertoire d'échange
 
-Démarrer container Fedora pour la construction de RPMs :
-docker run --rm --privileged=true -v ~/.ssh/id_rsa:/home/build/.ssh/id_rsa -v ~/.ssh/id_rsa.pub:/home/build/.ssh/id_rsa.pub -it fedora-packaging /bin/bash
+    # docker run -i -v <répertoire_hôte>:<répertoire_conteneur> -t docker_image /bin/bash
 
+### Exemple de Démarrage d'un container Fedora pour la construction de RPMs :
+
+    # docker run --rm --privileged=true -v ~/.ssh/id_rsa:/home/build/.ssh/id_rsa -v ~/.ssh/id_rsa.pub:/home/build/.ssh/id_rsa.pub -it fedora-packaging /bin/bash
