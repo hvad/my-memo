@@ -67,6 +67,11 @@ Naviguer entre les panneaux:
     C-b up         en haut
     C-b down       en bas
 
-Other:
+Autre:
 
     C-b x          fermer le panneau courant
+
+
+## Écrire sur l’ensemble des panes d’une fenêtre
+
+Pour cela il suffit d’effectuer la combinaison de touche <CTRL>+q et de taper :setw synchronize-panes on, vous pouvez maintenant écrire vos commandes sur l’ensemble des panneaux. Passez l’option à off quand vous souhaitez arrêter la synchronisation des panneaux.

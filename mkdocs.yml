@@ -8,3 +8,4 @@ nav:
         - 'Tmux': memo-tmux.md
     - 'Virtualisation':
         - 'Docker': memo-docker.md
+        - 'Kvm': memo-kvm.md
