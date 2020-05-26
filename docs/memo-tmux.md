@@ -6,7 +6,7 @@ Afficher la liste des raccourcis clavier:
 
     C-b ?
 
-## Gérer les sessions
+## Les sessions
 
 Créé une session:
 
@@ -18,7 +18,7 @@ Attacher la session:
 
 Detacher la session: 
 
-    `C-b d`.
+    C-b d
 
 Naviguer dans les sessions:
 
@@ -70,7 +70,6 @@ Naviguer entre les panneaux:
 Autre:
 
     C-b x          fermer le panneau courant
-
 
 ## Écrire sur l’ensemble des panes d’une fenêtre
 
