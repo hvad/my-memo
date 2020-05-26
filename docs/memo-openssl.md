@@ -68,7 +68,7 @@
 
 ### Vérifier une connexion et la chaîne de confiance sur un port TCP
 
-   # openssl s_client -connect host:443
+    # openssl s_client -connect host:443
 
 ### Vérifier la prise en charge de SSLv2, SSLv3, TLS1.0, TLS1.1 et TLS1.2
 
