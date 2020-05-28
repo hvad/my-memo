@@ -6,6 +6,7 @@ nav:
     - 'Home': index.md
     - 'Linux':
         - 'Tmux': memo-tmux.md
+        - 'Systemd': memo-systemd.md
         - 'OpenSSL': memo-openssl.md
     - 'Virtualisation':
         - 'Docker': memo-docker.md
