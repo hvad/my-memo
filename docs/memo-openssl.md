@@ -1,6 +1,6 @@
 # Openssl
 
-## Création
+## Création de certificat, clef, etc...
 
 ### Générer une clé privée
 
